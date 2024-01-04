@@ -111,7 +111,7 @@ st.sidebar.markdown("""___""")
 #======================= Quantidade de restaurantes visualizados =================================
 
 
-restaurant_slider = st.sidebar.slider('Até quantos restaurantes?',0,10,20)
+restaurant_slider = st.sidebar.slider('Até quantos restaurantes?',0,20,10)
                                 
 st.write(restaurant_slider)
 
