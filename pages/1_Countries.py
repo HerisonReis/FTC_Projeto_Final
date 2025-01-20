@@ -134,7 +134,7 @@ with st.container():
                                 .sort_values(by='Restaurant Name', ascending=False))
 
         
-    fig = px.bar(restaurant_for_country, x='Country Code', y='Restaurant Name')
+    fig = px.bar(restaurant_for_country, x='Country Code', y='Restaurant Name', color='Country Code', color_discrete_sequence=px.colors.qualitative.Set2)
         
     st.plotly_chart( fig, use_container_width=True )
         
